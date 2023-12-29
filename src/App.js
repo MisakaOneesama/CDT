@@ -30,7 +30,7 @@ const App = () => {
       <Router>
         <Routes>
             <Route
-                path="/login"
+                path="/"
                 element={<LoginForm onSubmit={handleLogin} register={loginRegister} />}
             />
             <Route
